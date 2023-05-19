@@ -9,9 +9,10 @@ function Child({ onData }) {
 
   return (
     <div className='bg-black'>
-      <input value={inputData} onChange={(e) => setInputData(e.target.value)} />
-      <button onClick={sendDataToParent} className='text-white'>Send Data to Parent</button>
-    </div>
+  <input value={inputData} onChange={(e) => setInputData(e.target.value)} className='bg-yellow-200' />
+  <button onClick={sendDataToParent} className='text-white'>Send Data to Parent</button>
+</div>
+
   );
 }
 

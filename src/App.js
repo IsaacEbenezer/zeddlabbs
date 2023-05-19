@@ -5,7 +5,7 @@ import FunctionCounter from './components/FunctionCounter';
 import FunctionCounterValue from './components/FunctionCounterValue';
 import Parent from './components/parent';
 import Scroll from './components/Scroll';
-// import store from './redux/store';
+// import store from '../src/redux/store';
 
 
 function App() {
